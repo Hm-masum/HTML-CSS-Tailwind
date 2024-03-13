@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 200px) 50px 50px;
+            gap: 20px;
+        }
+        
+        .box {
+            background-color: gray;
+        }
+        
+        #box-1 {
+            grid-row: span 5;
+        }
+        
+        #box-11,
+        #box-12 {
+            grid-column: span 3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Grid span -->
+    <div class="container">
+        <div class="box" id="box-1">Box - 1</div>
+        <div class="box" id="box-2">Box - 2</div>
+        <div class="box" id="box-3">Box - 3</div>
+        <div class="box" id="box-4">Box - 4</div>
+        <div class="box" id="box-5">Box - 5</div>
+        <div class="box" id="box-6">Box - 6</div>
+        <div class="box" id="box-7">Box - 7</div>
+        <div class="box" id="box-8">Box - 8</div>
+        <div class="box" id="box-9">Box - 9</div>
+        <div class="box" id="box-10">Box - 10</div>
+        <div class="box" id="box-11">Box - 11</div>
+        <div class="box" id="box-12">Box - 12</div>
+    </div>
+
+    <!-- Grid area layout -->
+
+    <div class="container1">
+        <header class="header">
+            <h3>The header</h3>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="">Nav-1</a></li>
+                <li><a href="">Nav-2</a></li>
+                <li><a href="">Nav-3</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <article>
+                <h3>Main Article 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eum nostrum tempora dolore cum laboriosam corrupti porro, beatae, aliquid minima ullam rem, est sapiente at.</p>
+            </article>
+            <article>
+                <h3>Main Article 2</h3>
+                <p>Praesentium quam pariatur odit delectus, quidem error officia nostrum similique illum quis, dignissimos nulla modi ex magni aspernatur, maiores ipsum! Officia odit eius quod neque.</p>
+            </article>
+        </main>
+
+        <div class="sidebar">
+            <h4>Sidebar</h4>
+        </div>
+
+        <div class="advertise">
+            <h4>Advertise</h4>
+        </div>
+
+        <footer class="footer">
+            <h3>The footer</h3>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 3px solid rebeccapurple;
+            overflow-y: auto;
+        }
+        
+        #box-1 {
+            /* overflow: hidden; */
+            /* overflow: scroll; */
+        }
+        
+        .ellipsis {
+            width: 200px;
+            white-space: nowrap;
+            border: 2px solid rebeccapurple;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p title="lorem20" class="ellipsis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias ad consequuntur minima porro iure provident exercitationem neque amet error!</p>
+    </header>
+
+    <section>
+        <div id="box-1" class="box">
+            <h3>My tsxt box 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, mollitia possimus, perferendis molestiae quisquam harum perspiciatis voluptatem non, quos tenetur ipsa officiis vel? Ipsum ut quaerat aut! Quam, eveniet rem nulla ut possimus
+                dignissimos in eaque voluptatum reiciendis maxime, soluta voluptate eius amet ratione? Nobis quibusdam doloremque in quae dolorem quidem voluptatibus necessitatibus voluptas ab voluptatum explicabo, saepe adipisci unde optio, dolore error
+                rem reprehenderit veniam nisi minima alias? Nesciunt, neque expedita. Ab harum rerum nihil mollitia earum commodi tenetur veritatis, hic vero magnam repudiandae labore eligendi eaque voluptatum amet minima, in impedit, exercitationem aliquam
+                ipsam assumenda enim laboriosam vitae quis? Molestiae accusantium nostrum, dolore vel laudantium minus nobis error assumenda sunt fugit? Dolor omnis facilis voluptates corporis, earum dignissimos repudiandae ratione delectus molestias,
+                praesentium saepe impedit nostrum rem corrupti aut quae obcaecati maiores. Architecto repellat labore quas, quod consectetur sunt cumque expedita eveniet neque atque ad esse ullam nostrum magni quam a nisi commodi nemo voluptatem obcaecati,
+                enim distinctio voluptas. Temporibus nulla atque magnam at sit neque illum officiis, quod sequi maiores, distinctio repellendus reprehenderit tempore, numquam quidem rerum asperiores doloremque consequatur laboriosam tenetur! Fugiat ea
+                atque eaque, consectetur veritatis sunt temporibus! Alias earum ipsa aperiam suscipit perspiciatis eaque.</p>
+        </div>
+        <div class="box">
+            <h3>My tsxt box 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, mollitia possimus, perferendis molestiae quisquam harum perspiciatis voluptatem non, quos tenetur ipsa officiis vel? Ipsum ut quaerat aut! Quam, eveniet rem nulla ut possimus
+                dignissimos in eaque voluptatum reiciendis maxime, soluta voluptate eius amet ratione? Nobis quibusdam doloremque in quae dolorem quidem voluptatibus necessitatibus voluptas ab voluptatum explicabo, saepe adipisci unde optio, dolore error
+                rem reprehenderit veniam nisi minima alias? Nesciunt, neque expedita. Ab harum rerum nihil mollitia earum commodi tenetur veritatis, hic vero magnam repudiandae labore eligendi eaque voluptatum amet minima, in impedit, exercitationem aliquam
+                ipsam assumenda enim laboriosam vitae quis? Molestiae accusantium nostrum, dolore vel laudantium minus nobis error assumenda sunt fugit? Dolor omnis facilis voluptates corporis, earum dignissimos repudiandae ratione delectus molestias,
+                praesentium saepe impedit nostrum rem corrupti aut quae obcaecati maiores. Architecto repellat labore quas, quod consectetur sunt cumque expedita eveniet neque atque ad esse ullam nostrum magni quam a nisi commodi nemo voluptatem obcaecati,
+                enim distinctio voluptas. Temporibus nulla atque magnam at sit neque illum officiis, quod sequi maiores, distinctio repellendus reprehenderit tempore, numquam quidem rerum asperiores doloremque consequatur laboriosam tenetur! Fugiat ea
+                atque eaque, consectetur veritatis sunt temporibus! Alias earum ipsa aperiam suscipit perspiciatis eaque.</p>
+        </div>
+        <div class="box">
+            <h3>My tsxt box 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus iure quo repellendus fuga officiis saepe voluptate debitis deleniti expedita libero.</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
